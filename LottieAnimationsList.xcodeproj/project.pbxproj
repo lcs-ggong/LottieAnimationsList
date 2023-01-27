@@ -13,6 +13,7 @@
 		18516CB529845D41003BA448 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18516CB429845D41003BA448 /* AnimationsListView.swift */; };
 		18516CB829845F66003BA448 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 18516CB729845F66003BA448 /* Lottie */; };
 		18516CBA29845FE0003BA448 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18516CB929845FE0003BA448 /* LottieView.swift */; };
+		18516CBD29846602003BA448 /* 135006-designer-cat (2).json in Resources */ = {isa = PBXBuildFile; fileRef = 18516CBC29846602003BA448 /* 135006-designer-cat (2).json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		18516CAB29845C23003BA448 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18516CB429845D41003BA448 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		18516CB929845FE0003BA448 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		18516CBC29846602003BA448 /* 135006-designer-cat (2).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "135006-designer-cat (2).json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		18516CAA29845C23003BA448 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				18516CBB298464C8003BA448 /* Animations */,
 				18516CB229845D00003BA448 /* Model */,
 				18516CAB29845C23003BA448 /* Preview Assets.xcassets */,
 			);
@@ -86,6 +89,14 @@
 				18516CB929845FE0003BA448 /* LottieView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		18516CBB298464C8003BA448 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				18516CBC29846602003BA448 /* 135006-designer-cat (2).json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18516CAC29845C23003BA448 /* Preview Assets.xcassets in Resources */,
+				18516CBD29846602003BA448 /* 135006-designer-cat (2).json in Resources */,
 				18516CA929845C23003BA448 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
